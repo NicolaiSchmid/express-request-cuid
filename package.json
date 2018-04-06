@@ -1,0 +1,32 @@
+{
+  "name": "express-request-cuid",
+  "version": "1.0.0",
+  "description": "A middleware, creating a new cuid for each request, adding a header and appending it to the request object\"",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolaischmid/express-request-cuid"
+  },
+  "author": "Nicolai Schmid <nicolai@schmid.uno>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "bump": "standard-version",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "dependencies": {
+    "cuid": "^2.1.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "standard-version": "^4.3.0"
+  }
+}
