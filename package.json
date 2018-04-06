@@ -20,6 +20,12 @@
     "dist",
     "docs"
   ],
+  "keywords": [
+    "express",
+    "middleware",
+    "id",
+    "request-tracing"
+  ],
   "dependencies": {
     "cuid": "^2.1.1"
   },
