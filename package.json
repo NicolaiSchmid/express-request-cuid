@@ -1,6 +1,6 @@
 {
   "name": "express-request-cuid",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A middleware, creating a new cuid for each request, adding a header and appending it to the request object\"",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
