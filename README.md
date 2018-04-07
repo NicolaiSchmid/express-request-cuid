@@ -4,7 +4,7 @@
 
 
 ## Overview
-[express-required-cuid](https://github.com/nicolaischmid/express-request-cuid) provides a simple express/connect middleware for creating a new [cuid](https://github.com/ericelliott/cuid) for each request and appending an `x-request-id` header to the request and adding the `id` property to the request-object.
+[express-required-cuid](https://github.com/nicolaischmid/express-request-cuid) provides a simple express/connect middleware for creating a new [cuid](https://github.com/ericelliott/cuid) for each request and appending an `x-request-id` header to the request and adding the `requestId` property to the request-object.
 
 ## Usage
 Just like above:
