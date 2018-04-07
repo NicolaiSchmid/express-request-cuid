@@ -12,8 +12,8 @@ export default (options) => {
         const id = cuid();
 
         response.header('x-request-id', id);
-        response.requestId = id;
-        response.id = id;
+        request.requestId = id;
+        request.id = id;
 
         next();
     }
