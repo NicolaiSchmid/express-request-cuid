@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/nicolaischmid/express-request-cuid/compare/v1.2.3...v1.3.0) (2018-06-22)
+
+
+### Features
+
+* previously set x-request-id headers will be considered and no new id will be generated ([4c4dfc1](https://github.com/nicolaischmid/express-request-cuid/commit/4c4dfc1))
+
+
+
 <a name="1.2.3"></a>
 ## [1.2.3](https://github.com/nicolaischmid/express-request-cuid/compare/v1.2.2...v1.2.3) (2018-04-07)
 
