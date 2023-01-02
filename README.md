@@ -21,3 +21,5 @@ Import the module and use it. It works with CJS `require` as well. For any addit
 
 ## Have fun coding!
 
+(Types are included)
+
